@@ -1,0 +1,85 @@
+1.What are variables and why are they called variables? Assign two numbers to variables 'a' and 'b' and print their sum.</b>"
+A.variables are like containers which are used to store data valus.Each variable has a name(called as identifier) and stores a value that can be used and changes throughout the program.They are 
+are called variables because the value they store can vary-it can change during the excution of the program.
+>>>a=5
+>>>b=10
+>>>print(a+b)
+15
+
+
+2.Write a python program to substract two numbers and print the result.
+>>>num1=123
+>>>num2=456
+>>>print(num1-num2)
+-333
+
+
+3.Multiply two variables and store the result in a third variable.print all three.
+>>>a=432
+>>>b=536
+>>>c=a*b
+>>>print(c)
+231552
+
+4.Devide 10 by 3 and print the result with and without decimals.
+>>>a=10
+>>>b=3
+>>>print(a/b)
+>>>print(a//b)
+3.3333333333333335
+
+
+5.Use floor division'//' to devide 17 by 4.print the output
+>>>a=17
+>>>b=4
+>>>print(a//b)
+3
+
+
+6.Use the modulo operator '%' to check the remainder when 25 is devided by 6.
+>>>a=25
+>>>b=6
+>>>print(a%b)
+4
+
+7.Calculate and print the square of a number stored in a variable.
+>>>a=5
+>>>b=a**2
+>>>print(b)
+25
+
+8.Assign values to three variables 'x','y','z' and compute the average.
+x=5
+y=5
+z=5
+a=x+y+z/3
+print(a)
+11.666666666666666
+
+9.Take a number and find its cube using the '**'operator.
+>>>a=5
+>>>b=5**3
+>>>print(b)
+125
+
+10.Create two variables 'length' and 'width'.Calculate and print area of a rectangle.
+>>>length=12
+>>>width=9
+>>>result=(12*9)
+>>>print(result)
+108
+
+
+11.Assign a variable 'total_marks=450' and 'obtained_marks=375'.Find percentage
+>>>total_marks=450
+>>>obtained_marks=375
+>>>percentage=(total_marks/obtained_marks)*100
+>>>print(percentage)
+120.0
+
+12.Write a python statement that calculates '(a+b)*' for some values of a,b,c.
+>>>a=5
+>>>b=6
+>>>c=8
+>>>print((a+b)*c)
+88
